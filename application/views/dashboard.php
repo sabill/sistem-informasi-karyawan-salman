@@ -9,7 +9,7 @@
       margin-right: 10px;
     }
     .table_head{
-      background-color: rgb(73, 68, 64);
+      background-color: #383838;
       color: #FFF;
     }
     #content-wrapper{
