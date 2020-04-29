@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['base_url'] = 'http://localhost/sistem-informasi-karyawan-salman';
+$config['base_url'] = 'http://localhost/sistem-informasi-karyawan';
 
 $config['index_page'] = '';
 
@@ -257,7 +257,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'jdnjkaskjfehuihweknkjdbdsjbfjhbUWOIwnjksjnf13';
 
 /*
 |--------------------------------------------------------------------------

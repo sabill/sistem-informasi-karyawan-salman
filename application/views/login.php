@@ -24,17 +24,17 @@
 		margin-bottom: 40px;
 	}
 	.grey-rectangle{
-		display: block;
+
+		display: relative;
 		font-family: "Roboto";
 		margin-top: 90px;
 		margin-left: auto;
 		margin-right: auto;
 		background-color: #C4C4C4;
 		padding: 50px 50px 40px 50px;
-		width: 200px;
+		width: 300px;
 	}
 	button{
-		display: block;
 		background-color: black;
 		border-color: black;
 		margin-left: auto;
@@ -45,9 +45,8 @@
 		color: white;
 	}
 	input{
-		display: block;
 		width: 200px;
-		height: 20px;
+		height: 30px;
 		border-color: transparent;
 		border-width: 5px;
 		border-radius: 3%;
@@ -66,16 +65,18 @@
 
 </head>
 <body>
+<div class="w3-main" style="margin-left:100px; margin-top: -15em;">
 	<div class="grey-rectangle">
 		<a href="welcome_message"><img id="salman-logo" src="assets/images/picts/salmanLog.jpeg" alt="Salman Logo"></a>
 		<form action="#">
 			<p id="f1">Email</p>
-			<label for=""><input type="email"></label>
+			<label for="#"><input type="email"></label>
 			<p id="f1">Password</p>
-			<label for=""><input type="password"></label>
-			<p style="text-align:center;">Forget password?</p>
+			<label><input type="password"></label>
+			<a href="<?= site_url()?>login/forget-password"><p>Forget password?</p></a>
 			<a href="<?= site_url()?>dashboard"><button type="submit">Login</button></a>
 		</form>
 	</div>	
+</div>
 </body>
 </html>

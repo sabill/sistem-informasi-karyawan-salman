@@ -31,7 +31,7 @@
 </head>
 <body>
 	<div class="grey-rectangle">
-		<a href="welcome_message"><img id="salman-logo" src="assets/images/picts/salmanLog.jpeg" alt="Salman Logo"></a>
+		<a href="<?= site_url()?>welcome"><img id="salman-logo" src="assets/images/picts/salmanLog.jpeg" alt="Salman Logo"></a>
 		<p>Silahkan hubungi nomor berikut untuk mengembalikan akun kembali.</p>
         <h3>Telp 022-2530708</h3>
         <p>atau hubungi pengurus IT Masjid Salman ITB secara langsung.</p>

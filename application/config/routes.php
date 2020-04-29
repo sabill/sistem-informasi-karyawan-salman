@@ -53,7 +53,13 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['login'] = 'loginController';
-$route['forget-password'] = 'loginController/forget';
+$route['login/forget-password'] = 'loginController/forget';
+
 $route['dashboard'] = 'dashboardController';
+$route['dashboard/profile'] = 'dashboardController/profile';
+$route['dashboard/presensi'] = 'dashboardController/presensi';
+$route['dashboard/presensi/details'] = 'dashboardController/presensi_details';
+
 $route['karyawan'] = 'karyawanController';
 $route['inventaris'] = 'inventarisController';
+$route['user/profile'] = 'profileController';
